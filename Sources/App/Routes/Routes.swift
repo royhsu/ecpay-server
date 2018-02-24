@@ -5,6 +5,8 @@ extension Droplet {
         
         post("payment/callback") { request in
             
+            print(request.description)
+            
             return request.description
             
         }
