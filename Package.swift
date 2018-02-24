@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "ecpay-server",
+    name: "EcpayServer",
     products: [
         .library(name: "App", targets: ["App"]),
         .executable(name: "Run", targets: ["Run"])
@@ -22,4 +22,3 @@ let package = Package(
         .testTarget(name: "AppTests", dependencies: ["App", "Testing"])
     ]
 )
-
