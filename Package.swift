@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "EcpayServer",
+    name: "ECPayServer",
     products: [
         .library(name: "App", targets: ["App"]),
         .executable(name: "Run", targets: ["Run"])
